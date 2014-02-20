@@ -1,5 +1,5 @@
-var Stream = require('stream');
-var sockjs = require('sockjs-client');
+var Stream = require('juliangruber-stream');
+var sockjs = require('juliangruber-sockjs-client');
 
 module.exports = function (uri, cb) {
     if (/^\/\/[^\/]+\//.test(uri)) {
